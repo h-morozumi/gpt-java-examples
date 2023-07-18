@@ -3,7 +3,6 @@ package gpt.java.examples;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.azure.ai.openai.OpenAIAsyncClient;
 import com.azure.ai.openai.OpenAIClient;
 import com.azure.ai.openai.OpenAIClientBuilder;
 import com.azure.ai.openai.models.ChatChoice;
