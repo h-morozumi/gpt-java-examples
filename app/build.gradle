@@ -23,6 +23,11 @@ dependencies {
     implementation 'com.google.guava:guava:31.1-jre'
 
     implementation 'com.azure:azure-ai-openai:1.0.0-beta.2'
+    implementation 'com.microsoft.semantic-kernel:semantickernel-api:0.2.6-alpha'
+    implementation 'com.microsoft.semantic-kernel.connectors:semantickernel-connectors:0.2.6-alpha'
+    implementation 'com.microsoft.semantic-kernel:semantickernel-core:0.2.6-alpha'
+    implementation 'com.microsoft.semantic-kernel:semantickernel-core-skills:0.2.6-alpha'
+    implementation 'com.microsoft.semantic-kernel.extensions:semantickernel-sequentialplanner-extension:0.2.6-alpha'
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
